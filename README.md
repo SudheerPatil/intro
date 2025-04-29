@@ -6,7 +6,7 @@
 
 Welcome to my Android development portfolio! This site showcases my skills, projects, and extensive experience in building Android applications. With 10 years in the field, I've had the opportunity to work on enterprise-level applications across diverse domains, including shopping, banking, IoT, and home automation. This portfolio highlights my technical proficiency and passion for creating high-quality, scalable Android solutions.
 
-You can view the live portfolio here: [https://SudheerPatil.github.io/Portfolio/](https://SudheerPatil.github.io/Portfolio/)
+You can view the live portfolio here: [https://SudheerPatil.github.io](https://sudheerpatil.github.io)
 
 ## Key Features
 
