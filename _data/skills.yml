@@ -1,33 +1,23 @@
 languages:
-  - item: JavaScript (ES6)
-  - item: TypeScript
-  - item: HTML
-  - item: CSS/Sass
-  - item: Python
-  - item: SQL
-  - item: R
+  - item: Kotlin
+  - item: Java
+  - item: XML/HTML
+  - item: GraphQL
+  - item: React Native (familiar)
 
-frameworks:
-  - item: Ember & Glimmer
-  - item: React
-  - item: Jekyll
-  - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
-
+skills:
+  - item: Android
+  - item: MVVM and MVP 
+  - item: Jetpack Compose
+  - item: Coroutine
+  - item: Retrofit
+  - item: RxJava
+  - item: DI (Dagger/Hilt, Koin)
+  - item: UI (Espresso) and Unit Testing (JUnit)
 tools:
-  - item: Bash
-  - item: Git & Github
-  - item: Gulp & Grunt
+  - item: Android Studio
+  - item: Visual Studio Code
+  - item: JIRA
+  - item: Git, Github and GitLab
   - item: Chrome DevTools
   - item: Postman
-  - item: MongoDB
-
-design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
-  - item: User Testing
