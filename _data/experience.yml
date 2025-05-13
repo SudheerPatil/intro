@@ -1,44 +1,50 @@
-- company: Upstatement
-  url: https://www.upstatement.com/
-  time: May 2018 - Present
-  position: Engineer
+- company: Bridgenext India pvt Ltd 
+  url: https://www.bridgenext.com/
+  logo: /img/logo/logo_bridgenext.png
+  time: August 2019 – Present
+  position: Technical Lead
+  summary: >
+    Led the Android team in building robust applications capable of handling high traffic.
+    Mentored and upskilled engineers, and improved team processes.
+    Responsible for developing essential features within the applications.
+  projects:
+    - name: Varo – Digital Banking App
+      details: >
+        Developed core app components using MVVM Clean Architecture with Mavericks for rapid delivery.
+        Utilized GraphQL with Apollo Client for efficient data management.
+        Contributed to app optimization and enhanced interoperability.
 
-- company: Scout
-  url: https://web.northeastern.edu/scout/
-  time: Jan - June 2018
-  position: Studio Developer
+- company: Globant India Pvt Ltd
+  url: https://www.globant.com/
+  logo: /img/logo/logo_globant_india.png
+  time: June 2017 – July 2019
+  position: Software Engineer
+  summary: >
+    Developed independent Android features with a focus on robustness and maintainability.
+    Created engaging custom UI designs and animations to elevate user experience.
+  projects:
+    - name: OSRAM – Lightify (Home Automation App)
+      details: >
+        Implemented home automation features using MVP Clean Architecture.
+        Integrated Google Analytics, Firebase Crashlytics, RxJava, and Realm for data handling.
 
-- company: Apple Music
-  url: https://www.apple.com/music/
-  time: July - Dec 2017
-  position: UI Engineer Co-op
+- company: Mechsoft Digital Technologies
+  url: https://www.mechsoftgroup.com/
+  logo: /img/logo/logo_mechsoft.png
+  time: June 2015 – June 2017
+  position: Android Developer
+  summary: >
+    Designed and developed Android applications from concept to completion.
+    Also worked in Java Spring Framework for backend.
+  projects:
+    - name: Appline – Shopping App
+      details: >
+        Developed the entire application using MVC for organized project structure.
 
-- company: Scout
-  url: https://web.northeastern.edu/scout/
-  time: Jan - June 2017
-  position: Studio Developer
-
-- company: Starry
-  url: https://starry.com/
-  time: July - Dec 2016
-  position: Software Engineer Co-op
-
-- company: Northeastern University
-  url: http://www.ccis.northeastern.edu/
-  time: Jan - May 2016
-  position: HCI Teaching Assistant
-
-- company: NU Women in Tech
-  url: http://nuwit.ccs.neu.edu/
-  time: Jan 2016 - May 2017
-  position: President & Web Chair
-
-- company: MullenLowe U.S.
-  url: https://us.mullenlowe.com/
-  time: July - Dec 2015
-  position: Creative Technologist Co-op
-
-- company: Northeastern University
-  url: http://www.ccis.northeastern.edu/
-  time: Mar - May 2015
-  position: HCI Research Assistant
+- company: Vrunik Solutions
+  url: https://www.vrunik.com/
+  logo: /img/logo/logo_vrunik.png
+  time: January 2015 – June 2015
+  position: Software Engineer
+  summary: >
+    Worked on a vendor app to enhance and maintain its features.
