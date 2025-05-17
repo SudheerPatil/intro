@@ -23,6 +23,9 @@
 - name: Appline
   url: https://goappline.com/
   class: appline
-  type: default
+  type: phones
+  images:
+    - /img/featured/goappline/goappline1.png
+    - /img/featured/goappline/goappline2.png
   description: >
     Interactive marketing website for Northeastern's first annual student-led design conference, Interventions.

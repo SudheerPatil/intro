@@ -913,7 +913,7 @@ strong {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 .featured-projects .project__pic.phones .phone:first-of-type {
-  margin-left: -5%;
+  margin-left: 0%;
 }
 .featured-projects .project__pic img {
   width: 100%;
@@ -945,6 +945,30 @@ strong {
 .featured-projects .project p {
   font-size: 0.85rem;
   line-height: 1.3;
+}
+.featured-projects .project.no-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.featured-projects .project.no-image .project__caption {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.featured-projects .project.no-image .project__name {
+  align-self: flex-end;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.featured-projects .project.no-image p {
+  align-self: stretch;
+  margin-top: 0;
+  text-align: left;
 }
 .other-projects .project {
   max-width: 600px;

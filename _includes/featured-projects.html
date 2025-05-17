@@ -2,22 +2,33 @@
   <div class="section__title">Featured Projects</div>
   <div class="section__content">
     {% for project in site.data.projects %}
-    <div class="project {{ project.class }}">
-      <figure class="project__pic {% if project.type == 'phones' %}phones{% endif %}">
-        {% if project.type == 'phones' %}
-          {% for image in project.images %}
-          <div class="phone">
-            <a href="{{ project.url }}" target="_blank">
-              <img src="{{ site.baseurl }}{{ image }}" alt="{{ project.name }} screenshot">
-            </a>
-          </div>
-          {% endfor %}
-        {% else %}
+    <div
+      class="project {{ project.class }} {% if project.images == null or project.images == empty %}no-image{% endif %}"
+    >
+      {% if project.images and project.type == 'phones' %}
+      <figure class="project__pic phones">
+        {% for image in project.images %}
+        <div class="phone">
           <a href="{{ project.url }}" target="_blank">
-            <img src="{{ site.baseurl }}{{ project.images[0] }}" alt="{{ project.name }} screenshot">
+            <img
+              src="{{ site.baseurl }}{{ image }}"
+              alt="{{ project.name }} screenshot"
+            />
           </a>
-        {% endif %}
+        </div>
+        {% endfor %}
       </figure>
+      {% elsif project.images %}
+      <figure class="project__pic">
+        <a href="{{ project.url }}" target="_blank">
+          <img
+            src="{{ site.baseurl }}{{ project.images[0] }}"
+            alt="{{ project.name }} screenshot"
+          />
+        </a>
+      </figure>
+      {% endif %}
+
       <figcaption class="project__caption">
         <div class="project__name">
           <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
@@ -27,4 +38,4 @@
     </div>
     {% endfor %}
   </div>
-</section> 
+</section>  
