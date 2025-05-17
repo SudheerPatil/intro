@@ -1,0 +1,30 @@
+- name: Varo Bank
+  url: https://play.google.com/store/apps/details?id=com.varomoney.bank
+  class: screentime
+  type: phones
+  images:
+    - /img/featured/varobank/varobank1.jpg
+    - /img/featured/varobank/varobank2.jpg
+    - /img/featured/varobank/varobank3.jpg
+  description: >
+    Varo isn’t just an online banking app. We are a real bank, built for the digital age. Accessible to you—with free online banking, early payday⁴, high yield savings³, credit score monitoring¹⁴, easy credit building⁷, automatic cashbackᵟ, instant cash advances (once qualified)⁵, and more. Fees apply to loans and out-of-network withdrawals/cash depositsᐞ.
+
+- name: ScreenTime 2.0
+  url: https://play.google.com/store/apps/details?id=com.starry.management
+  class: screentime
+  type: phones
+  images:
+    - /img/featured/screentime/screentime1.png
+    - /img/featured/screentime/screentime3.png
+    - /img/featured/screentime/screentime4.png
+  description: >
+    Starry Station feature that enabled users to filter content, pause the internet, and block apps like Facebook from their phones.
+
+- name: Interventions
+  url: https://interventions.design/
+  class: interventions
+  type: default
+  images:
+    - /img/featured/interventions/interventions.png
+  description: >
+    Interactive marketing website for Northeastern's first annual student-led design conference, Interventions.

@@ -779,11 +779,13 @@
   }
   .experience .job__time {
     font-size: 0.9rem;
+    margin-left: 30px;
     font-family: Inconsolata, monospace;
   }
   @media screen and (max-width: 480px) {
     .experience .job__time {
       font-size: 0.8rem;
+      margin-left: 30px;
     }
   }
   .experience .job__position {
@@ -792,7 +794,7 @@
     font-family: Inconsolata, monospace;
   }
   .experience .job__position--with-logo {
-    margin-left: 32px;
+    margin-left: 30px;
   }
   @media screen and (max-width: 480px) {
     .experience .job__position {
@@ -924,16 +926,23 @@
   .featured-projects .project__pic a {
     display: block;
   }
-  .featured-projects .project__pic.phones a {
-    display: -webkit-box;
-    display: -ms-flexbox;
+  .featured-projects .project__pic.phones {
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
   }
   .featured-projects .project__pic.phones .phone {
-    margin: 0 -7%;
+    flex: 0 0 auto;
+    width: 140px;
+    max-width: 140px;
+  }
+  .featured-projects .project__pic.phones .phone img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
   .featured-projects .project__pic.phones .phone:first-of-type {
     margin-left: -5%;
@@ -954,6 +963,9 @@
       width: 100%;
       margin-top: 25px;
       margin-left: 0;
+    }
+    .project__pic.phones .phone {
+      max-width: 100px;
     }
   }
   .featured-projects .project__name {
