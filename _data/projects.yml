@@ -1,6 +1,6 @@
 - name: Varo Bank
   url: https://play.google.com/store/apps/details?id=com.varomoney.bank
-  class: screentime
+  class: varobank
   type: phones
   images:
     - /img/featured/varobank/varobank1.jpg
@@ -11,7 +11,7 @@
 
 - name: Lightify [OSRAM GmbH]
   url: https://play.google.com/store/apps/details?id=com.osram.lightify
-  class: screentime
+  class: lightify
   type: phones
   images:
     - /img/featured/lightify/lightify1.jpg
