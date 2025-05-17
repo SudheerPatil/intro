@@ -7,7 +7,7 @@
     - /img/featured/varobank/varobank2.jpg
     - /img/featured/varobank/varobank3.jpg
   description: >
-    Varo isn’t just an online banking app. We are a real bank, built for the digital age. Accessible to you—with free online banking, early payday⁴, high yield savings³, credit score monitoring¹⁴, easy credit building⁷, automatic cashbackᵟ, instant cash advances (once qualified)⁵, and more. Fees apply to loans and out-of-network withdrawals/cash depositsᐞ.
+    Developed and maintained core features of the Varo Bank mobile app, focusing on seamless digital banking experiences. Implemented high-yield savings account workflows, real-time credit monitoring integration, and support for early payday and cash advance mechanisms. Built with a strong emphasis on security, responsive UI/UX, and compliance with financial regulations. Optimized performance for Android using Kotlin and MVVM architecture.
 
 - name: Lightify [OSRAM GmbH]
   url: https://play.google.com/store/apps/details?id=com.osram.lightify
@@ -18,7 +18,7 @@
     - /img/featured/lightify/lightify2.jpg
     - /img/featured/lightify/lightify3.jpg
   description: >
-    Starry Station feature that enabled users to filter content, pause the internet, and block apps like Facebook from their phones.
+    Engineered and optimized the mobile interface for OSRAM's Lightify smart lighting ecosystem. Integrated dynamic UI components for real-time color control, device pairing, and mood-based presets. Focused on low-latency Bluetooth/Wi-Fi communication with lighting devices. Collaborated with cross-functional teams to ensure responsive design, accessibility, and OTA firmware update support.
 
 - name: Appline
   url: https://goappline.com/
@@ -28,4 +28,4 @@
     - /img/featured/goappline/goappline1.png
     - /img/featured/goappline/goappline2.png
   description: >
-    Interactive marketing website for Northeastern's first annual student-led design conference, Interventions.
+    Designed and built Appline’s Android application for a hyper-local service marketplace. Developed modular features for transactions, messaging, and service listing using a scalable MVVM architecture. Employed custom UI components for a vibrant, intuitive interface. Prioritized offline support, localization, and compatibility across a range of Android devices. Contributed to API design and data model standardization.
