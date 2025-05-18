@@ -5,15 +5,27 @@
     </div>
     <div class="bottom">
       <span>Sudheer Patil</span>
-      <img class="emoji" src="{{site.baseurl}}/img/emojis/rockon.png" alt="emoji">
-      <span>2018</span>
+      <img
+        class="emoji"
+        src="{{site.baseurl}}/img/emojis/rockon.png"
+        alt="emoji"
+      />
+      <span
+        >Inspired by
+        <a href="https://brittanychiang.com" target="_blank"
+          >Brittany Chiang</a
+        ></span
+      >
     </div>
   </div>
   <div class="footer__links">
     {% for link in site.social %}
     <a href="{{link.url}}" target="_blank" title="{{link.title}}">
       <span class="text">{{link.title}}</span>
-      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
+      <img
+        src="{{site.baseurl}}/img/social/{{link.title}}.svg"
+        alt="{{link.title}}"
+      />
     </a>
     {% endfor %}
   </div>
